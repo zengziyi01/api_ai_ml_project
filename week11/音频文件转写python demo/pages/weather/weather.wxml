@@ -1,0 +1,6 @@
+<!--pages/weather/weather.wxml-->
+<view>当前的位置：{{ address}}</view>
+<view>当前的温度：{{now.temp }} °C</view>
+<view>当前的体感温度：{{now.feelsLike}} °C</view>
+<view>当前的风向：{{now.windDir }} </view>
+<view>当前的风力：{{ now.windScale}} 级</view>

@@ -1,0 +1,14 @@
+<!--pages/around/around.wxml-->
+<view> 中餐厅</view>
+<view> 数量：{{around_poi.count }}</view>
+
+<view wx:for="{{around_poi.pois}}">
+  <view>类型：{{item.type}}</view>
+  <view>名称：{{item.name}}</view>
+  <view>距离你：{{item.distance}} m</view>
+</view>
+
+
+<!-- <view>类型：{{around_poi.pois[1].type}}</view>
+<view>名称：{{around_poi.pois[1].name}}</view>
+<view>距离你：{{around_poi.pois[1].distance}} m</view> -->
